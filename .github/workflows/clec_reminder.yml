@@ -20,4 +20,3 @@ jobs:
           curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
           -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
           -d text="CLEC投資理財，CLEC James老師說：股票，有錢就買，絕對不賣。"
-``
