@@ -12,6 +12,10 @@ on:
     - cron: '2 9 * * *'    # 17:02
     - cron: '6 9 * * *'    # 17:06
     - cron: '8 9 * * *'    # 17:08
+    - cron: '2 19 * * *'    # xx
+    - cron: '6 19 * * *'    # xx
+    - cron: '8 19 * * *'    # xx
+
 
   workflow_dispatch:
 
